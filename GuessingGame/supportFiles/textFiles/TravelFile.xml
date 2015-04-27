@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<question text="Do you want to spend most of your time on the beach?">
+	<question text="Y:Do you want to visit an island?">
+		<question text="Y:Is it in the north of VN?">
+			<question text="Y:Are you thinking of Cat Ba Island?">
+				<answer value="Y:Cat Ba Island" />
+			</question>
+			<question text="N:Are you thinking of Phu Quoc Island?">
+				<answer value="Y:Phu Quoc Island" />
+			</question>
+		</question>
+		<question text="N:Do you love white sand on the beach?">
+			<question
+				text="Y:Do you want to visit one of the world's most beautiful bay?">
+				<question text="Y:Are you thinking of Nha Trang Beach?">
+					<answer value="Y:Nha Trang Beach" />
+				</question>
+				<question text="N:Are you thinking of Da Nang Beach?">
+					<answer value="Y:Da Nang Beach" />
+				</question>
+			</question>
+			<question text="N:Do you want to visit one of UNESCO's World Heritage?">
+				<question text="Y:Are you thinking of Ha Long Bay?">
+					<answer value="Y:Ha Long Bay" />
+				</question>
+				<question
+					text="N:Do you want to visit the southernmost part of VN's inland territory?">
+					<question text="Y:Are you thinking of Ca Mau?">
+						<answer value="Y:Ca Mau" />
+					</question>
+					<question text="N:Are you thinking of Mui Ne?">
+						<answer value="Y:Mui Ne" />
+					</question>
+				</question>
+			</question>
+		</question>
+	</question>
+	<question text="N:Do you want to be with mountains?">
+		<question text="Y:Does this place have cool weather even in the summer?">
+			<question text="Y:Does this place have lots of flowers?">
+				<question text="Y:Are you thinking of Da Lat?">
+					<answer value="Y:Da Lat" />
+				</question>
+				<question text="N:Are you thinking of Sa Pa?">
+					<answer value="Y:Sa Pa" />
+				</question>
+			</question>
+			<question
+				text="N:Do you want to visit a place which is inscribed as UNESCO World Heritage Site?">
+				<question text="Y:Are you thinking of Trang An Landscape Complex?">
+					<answer value="Y:Trang An Landscape Complex" />
+				</question>
+				<question text="N:Are you thinking of Mai Chau?">
+					<answer value="Y:Mai Chau" />
+				</question>
+			</question>
+		</question>
+		<question text="N:Do you want to visit a large city?">
+			<question
+				text="Y:Do you want to experience traditional Vietnamese culture?">
+				<question text="Y:Do you want to have a taste of authentic Pho?">
+					<question text="Y:Are you thinking of Hanoi Capital?">
+						<answer value="Y:Hanoi Capital" />
+					</question>
+					<question text="N:Are you thinking of Hue City?">
+						<answer value="Y:Hue City" />
+					</question>
+				</question>
+				<question text="N:Are you thinking of Ho Chi Minh City?">
+					<answer value="Y:Ho Chi Minh City" />
+				</question>
+			</question>
+			<question text="N:Do you want to travel back in time?">
+				<question text="Y:Are you thinking of Hoi An Ancient Town?">
+					<answer value="Y:Hoi An Ancient Town" />
+				</question>
+				<question text="N:Are you thinking of MeKong Delta?">
+					<answer value="Y:MeKong Delta" />
+				</question>
+			</question>
+		</question>
+	</question>
+</question>
